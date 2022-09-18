@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    background-color: blueviolet;
+    color: white;
+    
+}
+#mainh{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+h1{
+    padding: 2vh;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    
+}
+.nav{
+    background-color: black;
+    color: white;
+    
+    
+}
+ul{
+    list-style-type: none;
+    padding: 25px;
+}
+li{
+    font-size: 18px;
+    padding-left: 50px;
+    display: inline;
+}
+.about{
+padding-top: 6vh;
+}
+p{
+    margin: 10px 2vw ;
+}
+img{
+    height: 30vw;
+    padding-bottom: 20px;
+}
+.img{
+    
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.gallery{
+    display: block;
+    align-items: center ;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.width{
+    margin: 10px;
+    height: 200px;
+}
+.less{
+    width: 400px;
+    object-fit: cover;
+}
+.port{
+    width: 130px;
+    object-fit: cover;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.social{
+    background-color: rgba(211, 211, 211, 0.241);
+    color: black;   
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.fb:link{
+    color: deepskyblue;
+    text-decoration: none;
+}
+.fb:visited{
+    color: deepskyblue;
+    text-decoration: none;
+}
+.fb, .insta, .mail{
+    padding: 30px;
+    font-size: 150%;
+    font-weight: bold;
+}
+.insta:link{
+    color: blueviolet;
+    text-decoration: none;
+}
+.insta:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+.mail:link{
+    color: chocolate;
+    text-decoration: none;
+
+}
+.mail:visited{
+    color: chocolate;
+    text-decoration: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+.btp{
+    height: 200px;
+    float: right;
+    position: fixed;
+    right: 1vw;
+    bottom: 1vh;
+    height: 9vh;
+}
